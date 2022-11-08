@@ -1,11 +1,11 @@
 import React from 'react';
-import { Hello } from './Hello.jsx';
-import { Info } from './Info.jsx';
+import { Hello } from './Hello';
+import { Info } from './Info';
 
 export const App = () => (
   <div>
     <h1>Welcome to Meteor!</h1>
-    <Hello/>
-    <Info/>
+    <Hello />
+    <Info />
   </div>
 );
