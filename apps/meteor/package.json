@@ -11,7 +11,8 @@
     "@babel/runtime": "^7.17.9",
     "meteor-node-stubs": "^1.2.1",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "shared-ui": "workspace:*"
   },
   "devDependencies": {
     "@types/meteor": "^1.4.87",
