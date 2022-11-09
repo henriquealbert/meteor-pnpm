@@ -1,4 +1,7 @@
 ## NX + PNPM Workspaces + Meteor
 
 Known issues:
-you need to setup a `.npmrc` file with `shared-workspace-lockfile=false` and that makes you have a `node_modules` folder in each project, which isn't ideal.
+
+- You cannot use a single lockfile for your workspace. You must use a lockfile for each project. This is a limitation on MeteorJS.
+
+`shared-workspace-lockfile=true` in `.npmrc` is not supported.
